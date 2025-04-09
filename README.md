@@ -1,7 +1,29 @@
-# Mighty Bites App
+# Mighty Bites 🍟
 
-Meal ordering android application created using Java and Android Studio.
+Mighty Bites is a full-stack mobile Android Application to mimic meal-ordering on DoorDash.
 
-Customer and Chefs can sign up and login while Admins can only login. Admin can view and action complaints about Customers. Chefs can view their profile, create/edit meals and action orders. Customers can view and order meals while also being able to submit complaints and ratings for the chefs.
+## Technologies 🛠️
+The application was created using several technologies such as Java, Android Studio, and Firebase, also specific frameworks & tools such as JUnit and CircleCI.
 
-We also chose to include a unique animation on app launch. Back-end users and data is stored in a Firebase Realtime Database. Application can read, write to the database Implemented JUnit Test Cases to Test Login and Register Aspects
+The application can read & write to the Firebase Realtime Database, which essentially contains information and data about several customers, meals, administrators, and login information.
+
+We also implemented JUnit test cases to test login and registration functions, while promoting DevOps practices through the use of CircleCI and CI/CD principles.
+
+## Details 🍿
+Users can act as 1 of 3 roles:
+- Administrator
+- Chef
+- Customer
+
+## Administrators 🍔
+Administrators can view important information about the database and delete users.
+
+## Chefs 🧑‍🍳
+Chefs can cook meals for customers while handling customers.
+
+## Customers 🍕
+Customers can order meals and make requests to the chefs.
+
+<br>
+
+We aimed to simulate the meal ordering aspect of the popular food-delivery app DoorDash! 🏎️
